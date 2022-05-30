@@ -1,0 +1,104 @@
+body {
+  color: #4c5b5c;
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  display: inline;
+}
+
+footer {
+  font-family: "PT Mono", monospace;
+  text-align: center;
+  margin-top: 10px;
+}
+
+h1 {
+  color: blue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+small {
+  font-size: 14px;
+}
+
+strong {
+  color: #e3655b;
+  font-size: 30px;
+}
+
+a {
+  color: #e3655b;
+  text-decoration: none;
+}
+a:hover {
+  color: #4c5b5c;
+}
+
+.app {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.34) 0.73%,
+    rgba(253, 231, 76, 0.41) 50.73%,
+    rgba(253, 161, 76, 0.32) 100%
+  );
+  max-width: 80%;
+  border: 1px solid rgba(76, 91, 92, 0.5);
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.top-cities {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.search {
+  width: 113px;
+  height: 40px;
+  left: 304px;
+  top: 66px;
+  color: #fff;
+  background: #e3655b;
+  border-radius: 9px;
+}
+
+.search-city {
+  border-radius: 10px;
+  height: 40px;
+}
+
+.result {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#temperature {
+  font-size: 30px;
+}
+
+.future {
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.result-city {
+  font-size: 25px;
+}
+
+.icon-linkedin {
+  color: #4c5b5c;
+}
